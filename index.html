@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Family Tree</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #f5f7fa, #e4ecfb);
+      margin: 0;
+      padding: 40px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+      color: #333;
+    }
+
+    .tree {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      width: 220px;
+      background: white;
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 12px;
+    }
+
+    .name {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 6px;
+    }
+
+    .relation {
+      color: #666;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .desc {
+      font-size: 14px;
+      color: #444;
+    }
+
+    .line {
+      font-size: 40px;
+      color: #a5b4fc;
+      height: auto;
+    }
+
+    .line::before {
+      content: "⬇";
+    }
+  </style>
+</head>
+<body>
+
+  <h1>💙 My Core Heart</h1>
+
+  <div class="tree">
+
+    <!-- Couple Section -->
+    <div class="row">
+      <div class="card">
+        <img src="me.jpg" alt="Sneha Sarkar">
+        <div class="name">Sneha Sarkar</div>
+        <div class="relation">Me</div>
+        <div class="desc">The heart that connects every branch of this family with love, dreams, and endless dedication.</div>
+      </div>
+
+      <div style="font-size:50px;align-self:center;color:#ff6b81;">❤️</div>
+
+      <div class="card">
+        <img src="boyfriend.png" alt="Tanmay Ghosh">
+        <div class="name">Tanmay Ghosh</div>
+        <div class="relation">My Support System</div>
+        <div class="desc">At just 19, he has already become one of the strongest pillars in my life. His constant support and belief in me give me courage to chase my dreams.</div>
+      </div>
+    </div>
+
+    <div class="line"></div>
+
+    <!-- Grandparents -->
+    <div class="row">
+      <div class="card">
+        <img src="grandfather.jpg" alt="Shankar Nandi">
+        <div class="name">Shankar Nandi</div>
+        <div class="relation">Grandfather</div>
+        <div class="desc">The strong pillar of our family whose wisdom guides every generation. His values continue to shape our lives.</div>
+      </div>
+
+      <div class="card">
+        <img src="grandmother.jpg" alt="Sabitri Nandi">
+        <div class="name">Sabitri Nandi</div>
+        <div class="relation">Grandmother</div>
+        <div class="desc">The heart of our home, spreading warmth and unconditional love. Her care keeps the family beautifully connected.</div>
+      </div>
+    </div>
+
+    <div class="line"></div>
+
+    <!-- Middle Generation -->
+    <div class="row">
+      <div class="card">
+        <img src="mother.jpg" alt="Sampa Sarkar">
+        <div class="name">Sampa Sarkar</div>
+        <div class="relation">Mother</div>
+        <div class="desc">My greatest inspiration and constant supporter. Her strength and kindness motivate me every single day.</div>
+      </div>
+
+      <div class="card">
+        <img src="mama.jpg" alt="Subrata Nandi">
+        <div class="name">Subrata Nandi</div>
+        <div class="relation">Uncle (Mama)</div>
+        <div class="desc">A guiding figure who always stands by the family. His presence brings confidence and joy to everyone.</div>
+      </div>
+
+      <div class="card">
+        <img src="mamoni.jpg" alt="Sangita Nandi Saha">
+        <div class="name">Sangita Nandi Saha</div>
+        <div class="relation">Mamoni</div>
+        <div class="desc">Graceful and caring, she adds happiness wherever she goes. Her affection makes family moments even more special.</div>
+      </div>
+    </div>
+
+    <div class="line"></div>
+
+    <!-- Your Generation -->
+    <div class="row">
+      <div class="card">
+        <img src="brother.jpg" alt="Mehan Nandi">
+        <div class="name">Mehan Nandi</div>
+        <div class="relation">Brother</div>
+        <div class="desc">My lifelong companion and partner in countless memories. His energy fills life with laughter.</div>
+      </div>
+
+  </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  
+
+    <!-- Family Photos Section -->
+  <h2 style="margin-top:70px;color:#333;">❤️ Our Family Memories</h2>
+  <div style="display:flex;justify-content:center;gap:30px;flex-wrap:wrap;margin-top:30px;">
+    <div style="width:320px;background:white;border-radius:18px;padding:15px;box-shadow:0 8px 20px rgba(0,0,0,0.1);">
+      <img src="family1.jpg" alt="Family Photo 1" style="width:100%;height:240px;object-fit:cover;border-radius:12px;">
+      <p style="margin-top:10px;color:#555;">Moments filled with laughter, togetherness, and memories we will cherish forever.</p>
+    </div>
+
+    <div style="width:320px;background:white;border-radius:18px;padding:15px;box-shadow:0 8px 20px rgba(0,0,0,0.1);">
+      <img src="family2.jpg" alt="Family Photo 2" style="width:100%;height:240px;object-fit:cover;border-radius:12px;">
+      <p style="margin-top:10px;color:#555;">A beautiful reminder that family is where life begins and love never ends.</p>
+    </div>
+  </div>
+
+</body>
+</html>
